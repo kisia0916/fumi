@@ -26,6 +26,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://github.com/kisia0916/fumi",
   "eslintConfig": {
     "extends": [
       "react-app",

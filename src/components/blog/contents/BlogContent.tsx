@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function BlogContent(props:{img:string,title:string,tagList:string[],date:string,id:string}){
     return (
-        <Link to={"http://localhost:3000/blog/"+props.id} style={{textDecoration:"none"}}>
+        <Link to={"/blog/"+props.id} style={{textDecoration:"none"}}>
             <div className="blogMain">
                 <img src={props.img} className="blogImg"/>
                 <div className="blogInfo">
