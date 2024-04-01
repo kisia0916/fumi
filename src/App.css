@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..650;1,200..650&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&family=Nunito:wght@600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap");
+body{
+    background-color: #00081A;
+    margin: 0;
+    overflow-x: hidden;
+    /* background: rgb(0,8,26); */
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}

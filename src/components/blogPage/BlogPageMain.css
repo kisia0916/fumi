@@ -1,0 +1,120 @@
+.BlogPageMain2{
+    margin: auto;
+    max-width: 650px;
+    width: 95%;
+    height: 30px;
+   font-family: "M PLUS 1p", sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.BlogPageTop{
+    width: 100%;
+    display: flex;
+}
+.BlogPageTopBar{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.thumbnailBlogImg{
+    width: 97%;
+    aspect-ratio:21/11;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.blogPageTitleText{
+    font-family: "M PLUS 1p", sans-serif;
+    color: white;
+    font-size: 180%;
+    font-weight: 650;
+    margin-left: 10px;
+}
+.blogPageIcon{
+    width: 40px;
+    margin-left: 1%;
+    border-radius: 50px;
+}
+.blogTopIconText{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 150%;
+    font-weight: 800;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.BlogPageTitle{
+    width: 97%;
+    
+    margin: auto;
+    /* display: flex; */
+}
+.BlogPageTopBarLeft{
+    display: flex;
+    width: 280px;
+}
+.blogTopDateTextWarpp{
+    display: flex;
+}
+.blogTopDateText{
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 120%;
+    margin-top: 6%;
+    margin-right: 10px;
+}
+
+.BlogPageTitleText{
+    color: white;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 190%;
+    font-weight: 650;
+    margin-top: 6px;
+}
+.BlogPageTitleLine{
+    width: 97%;
+    height: 1px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #172546;
+}
+.BlogMainSpace{
+    width: 97%;
+    margin: auto;
+    margin-top: 20px;
+}
+.BlogMainSpace>p{
+   color: white; 
+   font-family: "M PLUS 1p", sans-serif;
+    font-weight: 650;
+    font-size: 110%;
+}
+.BlogMainSpace>h1{
+    color: white;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 190%;
+    font-weight: 650;
+    margin-top: 6px;
+ }
+.BlogPageTags{
+    display: flex;
+    margin-top: 13px;
+}
+.BlogPageTag{
+    display: flex;
+}
+.blogPageTagIcon{
+    width: 18px;
+}
+.blogPageTagTitle{
+   font-family: "M PLUS 1p", sans-serif;
+    color: #ffcc0c;
+    font-weight: 600;
+    font-size: 90%;
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-right: 10px;
+}

@@ -1,0 +1,47 @@
+
+@media screen and (min-width:665px) {
+    .serviceContentMain{
+        max-width: 315px;
+        width: 100%;
+        height: 230px;
+        border-radius: 10px;
+    }
+}
+.developLanguageText{
+    color: #ffdd00;
+}
+.serviceImg{
+    width: 100%;
+    aspect-ratio: 21/10;
+    /* height: 150px; */
+    object-fit:cover;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    image-rendering: pixelated;
+}
+.serviceInfo{
+    width: 100%;
+    height: calc(100% - 150px);
+}
+.serviceTitle{
+    color: white;
+    font-weight: 600;
+    font-size: 120%;
+    display: flex;
+    margin-top: 10px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 2px;
+}
+.serviceInfoBottom{
+    display: flex;
+}
+.userLanguage{
+    color: rgb(172, 172, 172);
+    font-size: 90%;
+    margin-top: 2px;
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 650;
+    margin-left: 2px;
+}

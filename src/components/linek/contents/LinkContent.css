@@ -1,0 +1,61 @@
+.linkContentMain{
+    background-color: #0c1a3a;
+    box-shadow: 0px 10px 20px 21px rgba(17, 17, 26, 0.18);
+    border-radius: 15px;
+    border: solid 2px #0f2761;
+}
+@media screen and (min-width:665px) {
+    .linkContentMain{
+        width: 199px;
+        height: 190px;
+    }
+}
+@media screen and (max-width:664px) {
+    .linkContentMain{
+        width: calc(50% - 20px);
+        aspect-ratio: 1/1;
+    }
+}
+.linkNameWarpp{
+    width: 100%;
+    display: flex;
+}
+.linkAccountWarpp{
+    width: 100%;
+    display: flex;
+}
+.linkIconWarpp{
+    width: 100%;
+    display: flex;
+}
+.linkIcon{
+    width: 93px;
+    margin: auto;
+    margin-top: 6%;
+    /* margin-top: 15px; */
+    /* margin-left: 15px; */
+}
+.linkInfo{
+    display: flex;
+}
+.linkInfoWarpp{
+    margin: auto;
+    margin-top: 8px;
+}
+.linkName{
+    margin: auto;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 180%;
+    font-weight: 650;
+}
+
+
+.linkAccountName{
+    font-family: "Nunito", sans-serif;
+    color: #ffdd00;
+    font-weight: 600;
+    /* margin-left: 3px; */
+    margin: auto;
+    margin-bottom: 6%;
+}

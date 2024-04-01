@@ -1,0 +1,144 @@
+.topSpace{
+    width: 100%;
+    display: flex;
+}
+.topSpaceMainContent{
+    margin: auto;
+    margin-top:7.4vh;
+    width: 95%;
+    max-width: 650px;
+}
+.proFileTop{
+    display: flex;
+    width: 100%;
+}
+.topSpaceProfileIcon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+.topSpaceMainContentRight{
+    height: 80px;
+    width: calc(100% - 80px);
+}
+.mainName{
+    font-family: "Nunito", sans-serif;
+    color: white;
+    font-size:210%;
+    font-weight: 800;
+    margin-left: 15px;
+}
+.mainNameLine{
+    justify-content: space-between;
+    display: flex;
+}
+.mainInfo{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 110%;
+    margin-left: 15px;
+    margin-top: 4px;
+    font-weight: 650;
+}
+.mainNameCheckIcon{
+    margin-left: 6px;
+}
+.aboutMe{
+    margin-top: 25px;
+    color: rgb(172, 172, 172);
+    font-family: "Nunito", sans-serif;
+    font-size: 105%;
+}
+.aboutMeText{
+    margin-bottom: 4px;
+    margin-left: 3px;
+}
+.sectionSplitLine{
+    margin: auto;
+    width: 95%;
+    max-width: 650px;
+    height: 1px;
+    background-color: #172546;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.selectContentBar{
+
+    width: 100%;
+    height: 30px;
+    width: 95%;
+    max-width: 650px;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-size: 120%;
+    font-weight: 650;
+    font-family: "Nunito", sans-serif;
+}
+.selectButtonLeft{
+    margin-left: 5px;
+}
+.selectButtonRight{
+    margin-right: 5px;
+}
+.selectButton{
+    cursor: pointer;
+    display:flex;
+    border-radius: 50px;
+    user-select: none;
+}
+.selectButton:hover{
+    color: rgb(255, 255, 255)!important;
+    background-color: #17254666;;
+}
+.selectButtonText{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.selected{
+    color: rgb(255, 255, 255)!important;
+    background-color: #ffcc00;
+    background-color: #ffbb00;
+
+}
+.bottomMainContent{
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    max-width: 650px;
+    word-break: break-all !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+@media screen and (min-width:665px) {
+    .bottomMainContent{
+        width: 100%;
+    }
+}
+@media screen and (max-width:664px) {
+    .bottomMainContent{
+        width: 90%;
+        margin: auto;
+        margin-top: 25px;
+    }
+}
+
+.mainNameLineLeft{
+    display: flex;
+}
+.mainNameLineRightIcon{
+    margin-top: 10px;
+}
+.mainNameLineRightIcon{
+    margin-right: 15px;
+}

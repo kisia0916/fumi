@@ -1,0 +1,47 @@
+.skillsContentMain{
+    width: 96%;
+    height: 90px;
+    background-color: #0c1a3a;
+    box-shadow: 0px 10px 20px 21px rgba(17, 17, 26, 0.18);
+    border-radius: 15px;
+    display: flex;
+    border: solid 2px #0f2761;
+}
+@media screen and (min-width:665px) {
+    .skillsContentMain{
+        width: 311px;
+        height: 100px;
+    }
+    .skillInfo{
+        margin-top: 15px;
+    }
+
+}
+@media screen and (max-width:664px) {
+    .skillsContentMain{
+        margin: auto;
+    }
+    .skillInfo{
+        margin-top: 12px;
+    }
+}
+.skillIcon{
+    width: 65px;
+    /* margin-top: 15px; */
+    margin-left: 15px;
+}
+.skillName{
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 190%;
+    font-weight: 650;
+    /* margin-top: 15px; */
+    margin-left: 18px;
+}
+
+.skillTypeText{
+    font-family: "Nunito", sans-serif;
+    color: #ffdd00;
+    font-weight: 600;
+    margin-left: 18px;
+}
