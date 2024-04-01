@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kisia0916/fumi/static/css/main.60292d70.css",
+    "main.js": "/kisia0916/fumi/static/js/main.a11c655d.js",
+    "index.html": "/kisia0916/fumi/index.html",
+    "main.60292d70.css.map": "/kisia0916/fumi/static/css/main.60292d70.css.map",
+    "main.a11c655d.js.map": "/kisia0916/fumi/static/js/main.a11c655d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60292d70.css",
+    "static/js/main.a11c655d.js"
+  ]
+}
