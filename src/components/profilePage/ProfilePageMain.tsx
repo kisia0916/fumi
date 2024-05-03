@@ -49,7 +49,7 @@ function ProfilePageMain(){
             </div>
             <div className="aboutMe">
                 <p className="aboutMeText">Hi, My name is fumi👋</p>
-                <p className="aboutMeText">I develop web application and window application</p>
+                <p className="aboutMeText">I develop web application and windows application</p>
             </div>
         </div>
     </div>
