@@ -15,7 +15,7 @@ function ProfilePageMain(){
           case "Blog":
               setNowTabContent(<BlogMain/>)
               break
-          case "Services":
+          case "Projects":
               setNowTabContent(<ServiceMain/>)
               break
           case "Skills":
@@ -58,8 +58,8 @@ function ProfilePageMain(){
         <div className="selectButton selectButtonLeft " style={nowTab === "Blog"?{backgroundColor:"#ffbb00",color:"rgb(255, 255, 255)"}:{}} onClick={()=>{setNowTab("Blog")}}>
             <span className="selectButtonText">Blog</span>
         </div>
-        <div className="selectButton " style={nowTab === "Services"?{backgroundColor:"#ffbb00",color:"rgb(255, 255, 255)"}:{}} onClick={()=>{setNowTab("Services")}}>
-            <span className="selectButtonText">Service</span>
+        <div className="selectButton " style={nowTab === "Projects"?{backgroundColor:"#ffbb00",color:"rgb(255, 255, 255)"}:{}} onClick={()=>{setNowTab("Projects")}}>
+            <span className="selectButtonText">Projects</span>
         </div>
         <div className="selectButton" style={nowTab === "Skills"?{backgroundColor:"#ffbb00",color:"rgb(255, 255, 255)"}:{}} onClick={()=>{setNowTab("Skills")}}>
             <span className="selectButtonText">Skill</span>
