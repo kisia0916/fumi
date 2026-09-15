@@ -44,7 +44,7 @@ function ProfilePageMain(){
                             <a href='https://discord.com/invite/tUGemHTA'><img src="/icon/discord_fill.svg" className="mainNameLineRightIcon"/></a>
                         </div>
                     </div>
-                    <p className="mainInfo">15y/o High school student</p>
+                    <p className="mainInfo">18y/o High school student</p>
                 </div>
             </div>
             <div className="aboutMe">

@@ -24,7 +24,7 @@
 .mainName{
     font-family: "Nunito", sans-serif;
     color: white;
-    font-size:210%;
+    font-size:190%;
     font-weight: 800;
     margin-left: 15px;
 }
@@ -42,6 +42,8 @@
 }
 .mainNameCheckIcon{
     margin-left: 6px;
+    width: 22px;
+    height: 22px;
 }
 .aboutMe{
     margin-top: 25px;
